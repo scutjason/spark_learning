@@ -1,4 +1,4 @@
-# spark_learn
+# spark_learning
 spark learning
 
 ## spark集群提交
@@ -22,10 +22,10 @@ spark learning
 ```
 4、http://spark1:8080/
 ```
-### 问题记录
+## 问题记录
 
-1、scala编译版本和spark集群版本不一致， 集群上 /usr/local/spark/jars/scala-compiler-2.11.12.jar，本地用的2.12.6
-注意是改 compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.4.1'
+1、scala编译版本和spark集群版本不一致， 集群上 /usr/local/spark/jars/scala-compiler-2.11.12.jar，
+本地用的2.12.6. 注意是改 compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.4.1'
 ```
 Exception in thread "main" java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: scala/runtime/java8/JFunction2$mcIII$sp
 	at learn.wordCountScalaCluster.WordCount$.main(WordCount.scala:15)

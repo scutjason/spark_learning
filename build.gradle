@@ -38,7 +38,7 @@ sourceSets {
 // scala:   attributes 'Main-Class': 'learn.wordCountScalaCluster.WordCount'
 jar {
     manifest {
-        attributes 'Main-Class': 'learn.wordCountScalaCluster.WordCount'
+        attributes 'Main-Class': 'learn.ActionExample'
     }
 }
 
